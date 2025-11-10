@@ -9,7 +9,7 @@ import Foundation
 
 class AIService {
     
-    private let apiKey = "AIzaSyBy1H3Zncs5X5rcVhgVxrlAyxUdT1R6Pck"
+    private let apiKey = "Gemini_Api_Key"
     
     func getFortune(language: String) async throws -> String {
         // Choose model endpoint (Gemini 1.5 Flash is free)
